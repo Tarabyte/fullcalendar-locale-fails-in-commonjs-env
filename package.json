@@ -1,0 +1,32 @@
+{
+  "name": "fullcalendar-locale-fails-in-commonjs-env",
+  "version": "1.0.0",
+  "description": "Fullcalendar locale loading fails in commonjs env",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "browserify index.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tarabyte/fullcalendar-locale-fails-in-commonjs-env.git"
+  },
+  "keywords": [
+    "fullcalendar",
+    "locale",
+    "bug",
+    "demo"
+  ],
+  "author": "tarabyte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tarabyte/fullcalendar-locale-fails-in-commonjs-env/issues"
+  },
+  "homepage": "https://github.com/Tarabyte/fullcalendar-locale-fails-in-commonjs-env",
+  "dependencies": {
+    "fullcalendar": "^2.4.0"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1"
+  }
+}
